@@ -91,10 +91,6 @@
        line-height: 2px;
        padding-top: 10px;
    }
-   /* header .navbar-brand {
-    margin-right: 4px;
-    border-left: 1px solid orange;
-} */
    
    .feature-item {
        display: flex;
@@ -121,6 +117,7 @@
        border-top-right-radius: 100px;
        text-align: center;
        font-size: 26px;
+       padding: 50px;
    }
    
    .photolog {
@@ -138,6 +135,9 @@
    .photobtn .btn {
        background: rgb(99, 95, 95);
        color: white;
+       height: 50px;
+       width: 120px;
+       border-radius: 10px;
    }
    /* End Section Shecial */
    /* Start Carusel block */
