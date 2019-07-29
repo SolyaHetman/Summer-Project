@@ -1,0 +1,191 @@
+   .container {
+       max-width: 1300px;
+   }
+   
+   li.rightnavbar {
+       position: relative;
+   }
+   
+   li.rightnavbar:first-child::before {
+       content: " ";
+       width: 1px;
+       height: 100%;
+       position: absolute;
+       left: 0;
+       top: 0;
+       background-color: #DCDCDC;
+   }
+   
+   li.rightnavbar::after {
+       content: " ";
+       width: 1px;
+       height: 100%;
+       position: absolute;
+       right: 0;
+       top: 0;
+       background-color: #DCDCDC;
+   }
+   
+   .rightnavbar {
+       padding-right: 7px;
+       padding-left: 7px;
+   }
+   
+   .ml-auto .nav-item {
+       left: auto !important;
+       right: 0px;
+   }
+   /*Start style header  */
+   
+   .showcase {
+       background-image: url(../image/head1.jpeg);
+       padding: 200px;
+   }
+   
+   header .title h1 {
+       font-size: 60px;
+       color: rgb(99, 95, 95);
+       height: 100%;
+   }
+   
+   .title {
+       height: 100%;
+   }
+   
+   header .btn {
+       background: rgb(99, 95, 95);
+       color: white;
+       font-size: 19px;
+       width: 160px;
+       height: 80px;
+       border-radius: 12px;
+       margin-right: 5px;
+       z-index: 1000;
+   }
+   
+   header .form-group select {
+       border: none;
+       border-radius: 0%;
+       height: 80px;
+       width: 260px;
+   }
+   
+   header .inputform input {
+       border: none;
+       border-radius: 0%;
+       border-top-left-radius: 12px;
+       border-bottom-left-radius: 12px;
+       height: 80px;
+       width: 400px;
+   }
+   /*End style header  */
+   
+   .static-top {
+       position: fixed;
+       right: 0;
+       left: 0;
+       z-index: 1000;
+   }
+   
+   div.nav-item {
+       line-height: 2px;
+       padding-top: 10px;
+   }
+   /* header .navbar-brand {
+    margin-right: 4px;
+    border-left: 1px solid orange;
+} */
+   
+   .feature-item {
+       display: flex;
+       text-align: center;
+   }
+   
+   .feature-item:nth-child(2) {
+       border-left: 1px solid #DCDCDC;
+       border-right: 1px solid #DCDCDC;
+       padding: 15px;
+   }
+   
+   .icon {
+       color: orange;
+       font-size: 20px;
+   }
+   /* Start Section Special  */
+   
+   .text-photo {
+       border-right: 1px solid orange;
+       border-bottom: 1px solid orange;
+       border-top: 1px solid orange;
+       border-bottom-right-radius: 100px;
+       border-top-right-radius: 100px;
+       text-align: center;
+       font-size: 26px;
+   }
+   
+   .photolog {
+       border-bottom-left-radius: 100px;
+       border-top-left-radius: 100px;
+       background-image: url(../image/ban4.jpg);
+       padding: 50px;
+   }
+   
+   .text-photo .text {
+       font-size: 40px;
+       color: rgb(99, 95, 95);
+   }
+   
+   .photobtn .btn {
+       background: rgb(99, 95, 95);
+       color: white;
+   }
+   /* End Section Shecial */
+   /* Start Carusel block */
+   
+   .informationblock {
+       background-color: rgb(194, 224, 228);
+       display: flex;
+       padding-bottom: 100px;
+       border-radius: 10px;
+   }
+   /* End Carusel block */
+   /*Start footer  */
+   
+   hr {
+       color: white;
+   }
+   
+   .newletter-button {
+       width: 20%;
+   }
+   
+   .newletter-input {
+       width: 80%;
+   }
+   
+   footer ul li a {
+       text-decoration: none;
+       color: #fff;
+   }
+   
+   footer ul li a:hover {
+       text-decoration: none;
+       color: #fff;
+   }
+   
+   footer .image img {
+       width: 98px;
+       height: 80%;
+       border-radius: 3px;
+   }
+   
+   footer {
+       background-color: rgb(24, 24, 55);
+       padding-top: 2%;
+       padding-bottom: 1%;
+   }
+   /*End footer  */
+   
+   body {
+       padding-top: 50px;
+   }
