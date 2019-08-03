@@ -339,6 +339,10 @@ div.nav-item {
     color: rgb(99, 95, 95);
 }
 
+#giftCarousel .carousel-control-next-icon .sr-only {
+    border-radius: 2px solid black;
+}
+
 
 /* #giftCarousel .carousel-item .image img:before {
     content: " ";
@@ -364,10 +368,15 @@ div.nav-item {
         max-width: 100% !important;
     }
     .informationblock #giftCarousel.carousel .carousel-control-prev {
-        left: -5%;
+        left: -15%;
     }
     .informationblock #giftCarousel.carousel .carousel-control-next {
-        right: -5%;
+        right: -15%;
+    }
+    #giftCarousel .carousel-item .image img {
+        border-top-left-radius: 2em 8em;
+        border-top-right-radius: 2em 8em;
+        border-bottom-left-radius: 0em;
     }
 }
 
