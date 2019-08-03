@@ -39,8 +39,12 @@
        
        .showcase {
            background-image: url(../image/head1.jpeg);
-           margin-top: 50px;
+           background-size: cover;
+           background-position: center center;
+           background-repeat: no-repeat;
            padding: 160px;
+           height: 100%;
+           width: 100%;
        }
        
        header .title h1 {
@@ -102,7 +106,6 @@
                width: 310px;
                border-radius: 0%;
                border: none;
-               ;
            }
            header .headerform .inputform input {
                width: 310px;
@@ -114,11 +117,11 @@
            header .title h1 {
                margin-bottom: 10px;
                text-align: center;
-               font-size: 40px;
+               font-size: 60px;
            }
        }
        
-       @media screen and (min-width: 576px) and (max-width: 972px) {
+       @media screen and (min-width: 577px) and (max-width: 972px) {
            header .showcase .headerform {
                flex-direction: column;
            }
@@ -151,6 +154,7 @@
            }
        }
        /*End style header  */
+       /* Start Section: Special */
        
        .static-top {
            position: fixed;
@@ -167,6 +171,7 @@
        .feature-item {
            display: flex;
            text-align: center;
+           margin-bottom: 50px;
        }
        
        .feature-item:nth-child(2) {
@@ -179,7 +184,19 @@
            color: orange;
            font-size: 20px;
        }
-       /* Start Section Special  */
+       
+       @media screen and (max-width:992px) {
+           .feature-item:nth-child(2) {
+               border: none;
+               padding: 0px;
+           }
+           .feature-item .text {
+               font-size: 20px;
+           }
+           .feature-item .icon {
+               font-size: 20px;
+           }
+       }
        
        .text-photo {
            border-right: 1px solid orange;
@@ -197,6 +214,9 @@
            border-top-left-radius: 100px;
            background-image: url(../image/ban4.jpg);
            padding: 50px;
+           background-size: cover;
+           background-position: center center;
+           background-repeat: no-repeat;
        }
        
        .text-photo .text {
@@ -210,6 +230,17 @@
            height: 50px;
            width: 120px;
            border-radius: 10px;
+       }
+       
+       @media screen and (max-width: 992px) {
+           .text-photo {
+               border-top-right-radius: 0px;
+               border-bottom-left-radius: 100px;
+           }
+           .photolog {
+               border-bottom-left-radius: 0px;
+               border-top-right-radius: 100px;
+           }
        }
        /* End Section Shecial */
        /* Start Carusel block */
