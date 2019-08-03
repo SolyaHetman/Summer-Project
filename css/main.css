@@ -340,10 +340,22 @@
        
        .newletter-button {
            width: 20%;
+           margin-left: 0px;
+       }
+       
+       .newletter-button .btn {
+           background-color: orange;
+           color: white;
+           height: 50px;
        }
        
        .newletter-input {
            width: 80%;
+       }
+       
+       .newletter-input input {
+           height: 50px;
+           border: none;
        }
        
        footer ul li a {
